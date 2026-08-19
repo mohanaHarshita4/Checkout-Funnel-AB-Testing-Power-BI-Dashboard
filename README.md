@@ -1,14 +1,15 @@
 # Checkout Funnel A and B Testing Project
 
 This project looks at three common problems people run into when they try to buy something online, and checks if fixing them actually leads to more people finishing their purchase, using real statistics instead of guessing.
+Alongside the analysis, I also built an interactive Power BI dashboard to visualize the results, with completion and conversion rates by group, sample sizes, and chi-square significance for each test, plus a summary page comparing all three.
 
 ## What this project does
 
 I picked three checkout problems that show up again and again in real online stores, and ran an A and B test on each one.
 
-1. **Clear messaging vs unclear messaging** (real data). Does showing users clear and complete information lead to more conversions compared to a plain, uninformative screen. This test uses a real public dataset from Kaggle with over half a million rows.
-2. **Guest checkout vs forced signup** (simulated data). Does letting people check out without forcing them to make an account lead to more completed purchases.
-3. **Short checkout form vs long checkout form** (simulated data). Does a shorter form with fewer fields lead to more completed purchases compared to a long form.
+1. Clear messaging vs unclear messaging (real data). Does showing users clear and complete information lead to more conversions compared to a plain, uninformative screen. This test uses a real public dataset from Kaggle with over half a million rows.
+2. Guest checkout vs forced signup (simulated data). Does letting people check out without forcing them to make an account lead to more completed purchases.
+3. Short checkout form vs long checkout form (simulated data). Does a shorter form with fewer fields lead to more completed purchases compared to a long form.
 
 Test 1 uses real user data. Test 2 and test 3 use simulated data, since companies do not publish this kind of internal experiment publicly. The completion rates used for the simulation are grounded in real published checkout research, not random guesses. All sources are listed inside the notebook.
 
@@ -32,17 +33,17 @@ Python, pandas, scipy, matplotlib, inside a Jupyter notebook.
 
 ## Files in this repo
 
-- **Checkout_Funnel_AB_Testing.ipynb** — the full notebook, with all the code, explanations, charts, and results
-- **marketing_AB.csv** — the real dataset used for test 1
-- **test1_chart.png** — a saved chart from test 1
-- **test2_guest_checkout.csv** — simulated dataset used for test 2
-- **test2_chart.png** — a saved chart from test 2
-- **test3_form_length.csv** — simulated dataset used for test 3
-- **test3_chart.png** — a saved chart from test 3
+- Checkout_Funnel_AB_Testing.ipynb — the full notebook, with all the code, explanations, charts, and results
+- marketing_AB.csv — the real dataset used for test 1
+- test1_chart.png — a saved chart from test 1
+- test2_guest_checkout.csv — simulated dataset used for test 2
+- test2_chart.png — a saved chart from test 2
+- test3_form_length.csv — simulated dataset used for test 3
+- test3_chart.png — a saved chart from test 3
 
 
 ## Dashboard
-![Dashboard preview](./dashboard_preview.png)
+![Dashboard preview](./dashboard_summary.png)
 Interactive Power BI dashboard: [checkout_funnel_dashboard.pbix](./checkout_funnel_dashboard.pbix)
 
 ## About me
