@@ -35,6 +35,15 @@ Python, pandas, scipy, matplotlib, inside a Jupyter notebook.
 - **Checkout_Funnel_AB_Testing.ipynb** — the full notebook, with all the code, explanations, charts, and results
 - **marketing_AB.csv** — the real dataset used for test 1
 - **test1_chart.png** — a saved chart from test 1
+- **test2_guest_checkout.csv** — simulated dataset used for test 2
+- **test2_chart.png** — a saved chart from test 2
+- **test3_form_length.csv** — simulated dataset used for test 3
+- **test3_chart.png** — a saved chart from test 3
+
+
+## Dashboard
+![Dashboard preview](./dashboard_preview.png)
+Interactive Power BI dashboard: [checkout_funnel_dashboard.pbix](./checkout_funnel_dashboard.pbix)
 
 ## About me
 
